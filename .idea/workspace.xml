@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d08e92e8-f555-4d64-affd-6a1f5a89453c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/instabot/com/instabot/InstaRobot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/instabot/com/instabot/InstaRobot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/instabot/InstaRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/instabot/InstaRobot.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WXm6IBYhvZ2J9MFC7umZ440zTT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.instabot.Main" />
+      <module name="instabot" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d08e92e8-f555-4d64-affd-6a1f5a89453c" name="Default Changelist" comment="" />
+      <created>1579304136467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579304136467</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579304648899">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1280.777@0.23.1280.777" timestamp="1579304648899" />
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1579364661561">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579364661561" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1579364661558">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579364661558" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1579364661557">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579364661557" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1579364661559">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579364661559" />
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1579305756542">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579305756542" />
+    <state width="1238" height="236" key="GridCell.Tab.1.center" timestamp="1579305756541">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1579305756541" />
+    <state width="1238" height="236" key="GridCell.Tab.1.left" timestamp="1579305756540">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1579305756540" />
+    <state width="1238" height="236" key="GridCell.Tab.1.right" timestamp="1579305756541">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1579305756541" />
+  </component>
+</project>
