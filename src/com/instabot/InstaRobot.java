@@ -8,7 +8,6 @@ import static com.instabot.RobotUtils.typeText;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.security.Key;
 
 public class InstaRobot
 {
@@ -28,6 +27,7 @@ public class InstaRobot
         for (int i = 0; i < NUMBER_OF_POST; i++)
         {
             clickUploadFileButton(robot);
+            changeFormat(robot);
             selectFolder(robot);
             selectFile(robot);
             selectFitImageButton(robot);
@@ -96,7 +96,24 @@ public class InstaRobot
     {
         robot.mouseMove(442,760);
         mouseClick(robot);
-        robot.delay(1000);
+        robot.delay(3000);
+    }
+
+    /**
+     * Change format
+     * @param robot
+     */
+    private static void changeFormat(Robot robot)
+    {
+        robot.mouseMove(306,499);
+        mouseClick(robot);
+        robot.delay(500);
+        robot.mouseMove(650,451);
+        mouseClick(robot);
+        robot.delay(500);
+        pressKey(robot, KeyEvent.VK_DOWN);
+        pressKey(robot, KeyEvent.VK_ENTER);
+        robot.delay(500);
     }
 
     /**
@@ -107,7 +124,7 @@ public class InstaRobot
     {
         robot.mouseMove(287,214);
         mouseClick(robot);
-        robot.delay(1000);
+        robot.delay(3000);
     }
 
     /**
@@ -174,13 +191,15 @@ public class InstaRobot
         robot.delay(10000);
     }
 
+
+
     /**
      * Write Description
      * @param robot
      */
     private static void writePhotoDescription(Robot robot)
     {
-        robot.delay(1000);
+        robot.delay(3000);
         robot.mouseMove(352,274);
         mouseClick(robot);
         robot.delay(1000);
