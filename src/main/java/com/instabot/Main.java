@@ -1,14 +1,13 @@
 package com.instabot;
 
 import java.awt.*;
-import java.util.concurrent.TimeUnit;
 
 public class Main {
 
     public static void main(String[] args)
-    throws AWTException, InterruptedException
+    throws AWTException
     {
         //MouseTracker.trackMouse();
-        InstaRobot.runRobot();
+        new InstaRobot().runRobot();
     }
 }

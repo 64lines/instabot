@@ -1,4 +1,4 @@
-package com.instabot;
+package com.instabot.utils;
 
 import java.awt.*;
 import java.awt.event.InputEvent;
@@ -55,41 +55,45 @@ public class RobotUtils
     public static void keyCombo(Robot robot, int key1, int key2)
     {
         robot.keyPress(key1);
+        robot.delay(500);
         robot.keyPress(key2);
-        robot.delay(100);
+        robot.delay(500);
         robot.keyRelease(key1);
+        robot.delay(500);
         robot.keyRelease(key2);
+        robot.delay(500);
     }
 
     public static void keyCombo(Robot robot, int key1, int key2, int key3)
     {
         robot.keyPress(key1);
+        robot.delay(200);
         robot.keyPress(key2);
+        robot.delay(200);
         robot.keyPress(key3);
-        robot.delay(500);
+        robot.delay(200);
         robot.keyRelease(key1);
         robot.keyRelease(key2);
         robot.keyRelease(key3);
+        robot.delay(200);
     }
 
     public static void mouseClick(Robot robot)
     {
-        robot.mousePress(InputEvent.BUTTON1_MASK);
-        robot.mouseRelease(InputEvent.BUTTON1_MASK);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
     }
 
     public static void mouseRightClick(Robot robot)
     {
-        robot.mousePress(InputEvent.BUTTON3_MASK);
-        robot.mouseRelease(InputEvent.BUTTON3_MASK);
+        robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
+        robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
     }
 
     public static void pressKey(Robot robot, int key)
     {
         robot.keyPress(key);
-        robot.delay(200);
-        robot.keyRelease(key);
-        robot.delay(100);
+        robot.delay(50);
     }
 
     public static void typeText(Robot robot, String text)

@@ -1,7 +1,9 @@
 package com.instabot;
 
 import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.util.concurrent.TimeUnit;
+import javax.xml.crypto.dsig.keyinfo.KeyInfo;
 
 public class MouseTracker
 {

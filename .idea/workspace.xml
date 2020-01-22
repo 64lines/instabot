@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08e92e8-f555-4d64-affd-6a1f5a89453c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/instabot/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/instabot.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/instabot/InstaRobot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/instabot/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/instabot/com/instabot/InstaRobot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/instabot/com/instabot/InstaRobot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/instabot/InstaRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/instabot/InstaRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instabot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instabot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/instabot/com/instabot/InstaRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/instabot/com/instabot/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/instabot/com/instabot/MouseTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/instabot/MouseTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/instabot/com/instabot/RobotUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/instabot/InstaRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/instabot/InstaRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/instabot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/instabot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/instabot/MouseTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/instabot/MouseTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/instabot/RobotUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/instabot/utils/RobotUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +35,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WXm6IBYhvZ2J9MFC7umZ440zTT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -111,42 +131,89 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="343" y="88" key="#Main" timestamp="1579652842086">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="343" y="88" key="#Main/0.23.1280.777@0.23.1280.777" timestamp="1579652842086" />
+    <state x="240" y="77" key="#Project_Structure" timestamp="1579625094842">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="77" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1579625094842" />
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579304648899">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1280.777@0.23.1280.777" timestamp="1579304648899" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1579364661561">
+    <state x="369" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579624383912">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579364661561" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1579364661558">
+    <state x="369" y="107" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1280.777@0.23.1280.777" timestamp="1579624383912" />
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1579657774222">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579364661558" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1579364661557">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579657774222" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1579657774221">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579364661557" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1579364661559">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579657774221" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1579657774221">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579364661559" />
-    <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1579305756542">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579657774221" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1579657774222">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579305756542" />
-    <state width="1238" height="236" key="GridCell.Tab.1.center" timestamp="1579305756541">
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579657774222" />
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1579647987379">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1579305756541" />
-    <state width="1238" height="236" key="GridCell.Tab.1.left" timestamp="1579305756540">
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579647987379" />
+    <state width="1238" height="236" key="GridCell.Tab.1.center" timestamp="1579647987378">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1579305756540" />
-    <state width="1238" height="236" key="GridCell.Tab.1.right" timestamp="1579305756541">
+    <state width="1238" height="236" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1579647987378" />
+    <state width="1238" height="236" key="GridCell.Tab.1.left" timestamp="1579647987378">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1579305756541" />
+    <state width="1238" height="236" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1579647987378" />
+    <state width="1238" height="236" key="GridCell.Tab.1.right" timestamp="1579647987378">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1579647987378" />
+    <state x="128" y="23" key="SettingsEditor" timestamp="1579625236239">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1579625236239" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1579652653019">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1280.777@0.23.1280.777" timestamp="1579652653019" />
+    <state x="333" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1579565751259">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="333" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1579565751259" />
+    <state x="298" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579655833738">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="298" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.777@0.23.1280.777" timestamp="1579655833738" />
+    <state x="445" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579656321016">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="445" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1579656321016" />
+    <state x="320" y="173" width="782" height="540" key="find.popup" timestamp="1579656557446">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="320" y="173" width="782" height="540" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1579656557446" />
+    <state x="69" y="34" key="new project wizard" timestamp="1579624307706">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="69" y="34" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1579624307706" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1579652649352">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1579652649352" />
   </component>
 </project>
