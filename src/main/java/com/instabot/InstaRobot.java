@@ -1,5 +1,9 @@
 package com.instabot;
 
+
+import static com.instabot.utils.InstagramRobotUtils.browseToInstagram;
+import static com.instabot.utils.InstagramRobotUtils.openChrome;
+import static com.instabot.utils.InstagramRobotUtils.openNewTab;
 import static com.instabot.utils.RobotUtils.keyCombo;
 import static com.instabot.utils.RobotUtils.mouseClick;
 import static com.instabot.utils.RobotUtils.mouseRightClick;
@@ -10,7 +14,7 @@ import com.instabot.utils.FileUtils;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class InstaRobot
+public class InstaRobot extends Bot
 {
     private static final String DIRECTORY = "/Users/julian/Collections/Old pictures/";
     private Robot robot;
@@ -18,13 +22,7 @@ public class InstaRobot
     public InstaRobot()
     throws AWTException
     {
-        robot = new Robot();
-    }
-
-    public void runRobot()
-    {
-        openInstagram();
-        uploadFiles();
+        super();
     }
 
     /**
@@ -32,9 +30,9 @@ public class InstaRobot
      */
     private void openInstagram()
     {
-        openChrome();
-        openNewTab();
-        browseToInstagram();
+        openChrome(robot);
+        openNewTab(robot);
+        browseToInstagram(robot);
         openDeveloperTools();
     }
 
@@ -58,40 +56,6 @@ public class InstaRobot
             selectFolder();
             deleteFile();
         }
-    }
-
-    /**
-     * Open Chome.
-     */
-    private void openChrome()
-    {
-        robot.mouseMove(401,799);
-        robot.delay(1000);
-        robot.mouseMove(401,785);
-        mouseClick(robot);
-
-        robot.delay(500);
-        robot.mouseMove(401,585);
-        mouseClick(robot);
-    }
-
-    /**
-     * Opening a new tab
-     */
-    private void openNewTab()
-    {
-        keyCombo(robot, KeyEvent.VK_META, KeyEvent.VK_T);
-        robot.delay(3000);
-    }
-
-    /**
-     * Opening https://www.instagram.com/
-     */
-    private void browseToInstagram()
-    {
-        typeText(robot, "instagram.com");
-        robot.delay(1000);
-        pressKey(robot, KeyEvent.VK_ENTER);
     }
 
     /**
@@ -210,5 +174,12 @@ public class InstaRobot
         typeText(robot, "70s ");
         keyCombo(robot, KeyEvent.VK_ALT, KeyEvent.VK_3);
         typeText(robot, "80s ");
+    }
+
+    @Override
+    public void runBot()
+    {
+        openInstagram();
+        uploadFiles();
     }
 }

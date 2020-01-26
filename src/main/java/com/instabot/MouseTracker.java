@@ -9,6 +9,12 @@ public class MouseTracker
 {
     public static final int SECONDS = 30;
 
+    public static void main(String args[])
+    throws InterruptedException
+    {
+        MouseTracker.trackMouse();
+    }
+
     /**
      * Tracks the mouse for 30 seconds.
      *
@@ -21,7 +27,7 @@ public class MouseTracker
         {
             TimeUnit.SECONDS.sleep(1);
             Point point = MouseInfo.getPointerInfo().getLocation();
-            System.out.println(point.x + "," + point.y);
+            System.out.println("robot.mouseMove(" + point.x + ", " + point.y + ");");
         }
     }
 }
